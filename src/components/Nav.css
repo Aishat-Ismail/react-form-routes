@@ -1,0 +1,43 @@
+
+
+.maindiv{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: #0003 0 1px 3px, #0000001f 0 2px 1px, #00000024 0 1px 1px;
+    padding: 1rem 4rem;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.navLinks{
+    display: flex;
+    width: 63%;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.links{
+    width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    align-items: center;
+}
+.logo{
+    width: fit-content;
+    height: auto;
+    font-size: 30px;
+}
+.linkBtn{
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+}
+h1{
+    font-size: 20px;
+}

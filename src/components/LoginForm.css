@@ -1,0 +1,71 @@
+#container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+
+form {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    border-left: 1.5px solid rgb(138, 90, 235);
+    border-right: 1.5px solid rgb(0, 204, 255);
+    border-top: 1.5px solid rgb(129, 72, 235);
+    border-bottom: 1.5px solid rgb(0, 204, 255);
+    box-shadow: 3px 3px 5px #646cff67, -3px -3px 5px rgba(85, 83, 83, 0.272);
+    border-radius: 20px;
+}
+
+form button {
+    margin-top: 12px;
+    width: 60%;
+    align-self: center;
+}
+
+p {
+    display: block;
+    margin: 0;
+    margin-bottom: 10px;
+    color: red;
+}
+
+input {
+    height: 40px;
+    padding-left: 10px;
+    font-size: 15px;
+    width: 100%;
+    outline: none;
+    margin-bottom: 20px;
+    background: #fff;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    box-shadow: 0px 1px 5px grey;
+}
+
+button {
+    margin-left: 10px;
+    border-radius: 4px;
+    padding: 0.6em 1.2em;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+    background-color: #1b1b1b;
+    border-left: 1px solid rgb(138, 90, 235);
+    border-right: 1px solid rgb(0, 204, 255);
+    border-top: 1px solid rgb(129, 72, 235);
+    border-bottom: 1px solid rgb(0, 204, 255);
+    cursor: pointer;
+    transition: border-color 0.25s;
+    margin-bottom: 20px;
+    color: white;
+}
+
+button:focus,
+button:focus-visible {
+    outline: 4px auto -webkit-focus-ring-color;
+}
